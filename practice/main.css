@@ -4,6 +4,10 @@
 	All of the items should have even space around them.*/
 
 #parent {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+	align-items: flex-end;
 }
 
 /* you do not need to modify below */
