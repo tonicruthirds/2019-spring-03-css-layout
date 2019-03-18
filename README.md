@@ -30,11 +30,11 @@ Last week we started exploring using CSS to add styles to our pages. This week w
 
 2. Sometimes we want to group these boxes together into larger boxes that can be styled as a single section. When we want to do that, we can use the `<div>` tag. Think of the div tag a blank slate / empty box.
 
-3. When we nest tags inside of each other (like with a div), we call the outer element the parent and the innder element the child.
+3. When we nest tags inside of each other (like with a div), we call the outer element the parent and the inner element the child.
 
 ![alt text](https://github.com/megknoll/coderbabez-css-wk2/raw/master/img/child_parent_element.png "Parent vs. Child Element")
 
-4. The ability to group items together like this becomes expecially useful when we want to create complex layouts like rows and columns. There are a few ways to do this in CSS. The most common way to create layouts is something called a "float", but today we're going to use a new CSS method called "flexbox". Flexbox is more modern, and is probably what most sites will use in the future, even though some older browsers don't support it.
+4. The ability to group items together like this becomes especially useful when we want to create complex layouts like rows and columns. There are a few ways to do this in CSS. The most common way to create layouts is something called a "float", but today we're going to use a new CSS method called "flexbox". Flexbox is more modern, and is probably what most sites will use in the future, even though some older browsers don't support it.
 
 5. In flexbox, the parent element tells the child elements how to behave.
 ```html
